@@ -1,0 +1,60 @@
+.place-item {
+    margin: 1rem 0;
+}
+
+.place-item_content {
+    padding: 0;
+}
+
+.place-item_info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.place-item_image {
+    width: 100%;
+    height: 12.5rem;
+    margin-right: 1.5rem;
+}
+
+.place-item_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.place-item_info h2,
+.place-item_info h3,
+.place-item_info p {
+    margin: 0 0 0.5rem 0;
+}
+
+.place-item_actions {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.place-item_modal-content {
+    padding: 0;
+}
+
+.place-item_modal-actions {
+    text-align: right;
+}
+
+.place-item_actions button,
+.place-item_actions a {
+    margin: 0.5rem;
+}
+
+.map-container {
+    height: 15rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .place-item_image {
+        height: 20rem;
+    }
+}
